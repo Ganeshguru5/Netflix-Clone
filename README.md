@@ -6,6 +6,7 @@ Built With
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
 </div>
+<p>Live app <a href="https://netflsix.web.app/" target='__blank'>https://netflsix.web.app/</a></p>
 
 To run this project on your system.
 * Clone the repository 
