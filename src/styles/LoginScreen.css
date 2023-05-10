@@ -1,0 +1,67 @@
+.inputs{
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    width: 255px;
+    height:45px;
+    margin-top: 20px;
+    padding-left: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.signinbtn{
+   width: 270px;
+    height:45px;
+    background-color: #E50914;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-family: 'Outfits', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.signintitle{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+.Login{
+    background-color: black;
+    width:max-content;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    
+}
+.LoginCon{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.remembertxt{
+    font-size: 15px;
+    color: grey;
+}
+.rememberbox{
+    display: flex;
+    flex-direction: row;
+    
+    font-family: 'Outfit', sans-serif;
+}
+.recapcha{
+font-size: 15px;
+    color: grey;
+    width: 250px;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+.LoginScreenCon{
+  
+}
+

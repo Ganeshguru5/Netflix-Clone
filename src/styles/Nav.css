@@ -1,0 +1,41 @@
+.Navlogo{
+    width: 120px;
+    
+}
+.NavCon{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftnav{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.midnav{
+    width: 40%;
+    transition: 1s;
+}
+.rightnav{
+    width: 20%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.navigation{
+    text-decoration: none;
+    color: white;
+}
+.navtext{
+    font-family: 'Outfit', sans-serif;
+}
+.search:hover .midnav{
+    width: 20%;
+}
+

@@ -1,0 +1,41 @@
+.username{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 13px;
+}
+.Whotext{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Accountins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction:column;
+}
+.mpbtncon{
+    margin-top: 40px;
+}
+.mpbutton{
+    background-color: #00081D;
+    border: white solid 0.1px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding: 12px 80px;
+    font-weight: 100;
+    font-size: 15px;
+}   

@@ -1,0 +1,211 @@
+.PortfolioCon{
+    width: 100%;
+}
+.Signinbtn{
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size:15px;
+    font-family: 'Outfit', sans-serif;
+}
+.portbtncon{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+.selectin{
+    padding: 8px 15px;
+    background-color: #0F1118;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+.NavPort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.banner{
+    width: 95%;
+    height: 37.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+.logo{
+    width: 180px;
+}
+.logoConPort{
+    margin-left: 20px;
+}
+.languagecon{
+    margin-right: 20px;
+}
+.bannertitle1{
+    color: white;
+    font-size: 70px;
+    font-weight:900;
+    font-family: 'Outfit', sans-serif;
+}
+.bannertitle2{
+    color: white;
+    font-size: 20px;
+    font-weight:600;
+}
+.bannertitle3{
+    color: white;
+    font-size: 20px;
+    font-weight:400;
+    font-family: 'Outfit', sans-serif;
+}
+.banneritems{
+    margin-left: 8%;
+    width: 50%;
+    padding-top: 60px;
+}
+.startbtn{
+    background-color: #E50914;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight:600;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.enteremail{
+    padding: 20px 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    border: none;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.typeone{
+    color: white;
+
+}
+.typetwo{
+    color: white;
+}
+.firstType{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.secondType{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+.TypesCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wordscon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageion{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typeone{
+    font-size: 40px;
+    font-family:'Outfits',sans-serif;
+    font-weight: 900;
+}
+.typetwo{
+    font-size: 20px;
+    font-family:'Outfits',sans-serif;
+    font-weight: 700;
+    width: 600px;
+}
+.line{
+    background-color: #252239;
+    width: 70%;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+}   
+.FAQcon{
+    margin: 100px;
+}
+.faqtit{
+    font-family: 'Outfits',sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.ques{
+    color: white;
+    font-family: 'Outfits',sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+.ans{
+    color: white;
+    font-family: 'Outfits',sans-serif;
+    font-size: 25px;
+    padding: 20px;
+}
+.Question{
+    background-color: #132144;
+    margin-bottom: -23px;
+}
+
+.Answer{
+    background-color: #132144;
+    margin-bottom: -10px;
+}
+.redaycon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ready{
+    color: white;
+    font-size: 20px;
+    font-family: 'Outfits',sans-serif;
+    
+}
+.callus
+{
+    padding-top: 40px;
+    padding-bottom: 10px; 
+}
+.calltxt{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-family: 'Outfits',sans-serif;
+}
+
+.footerelement{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: dashed white;
+    font-family: 'Outfits',sans-serif;
+    font-size: 13px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 10%;
+}

@@ -1,0 +1,44 @@
+.AloneseriesCon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.ASvideocon{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ASdescon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.playlistbtnas{
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding: 7px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonaddconas{
+    display: flex;
+    flex-direction: row;
+}
+.asplot{
+    color: white;
+    width: 80%;
+}

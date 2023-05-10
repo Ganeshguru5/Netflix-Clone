@@ -1,0 +1,42 @@
+.searchitemcon{
+    display: flex;
+    flex-direction: row;
+}
+.searchcon{
+    padding-top: 5%;
+    margin-left: 1%;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.searchinput{
+    height: 30px;
+    width: 200px;
+    padding-left: 15px;
+    background-color: #00081D;
+    border: none;
+    color: white;
+    font-family: 'Outfit',sans-serif;
+}
+.wholesearch{
+   border-width: 0.6px;
+   border-color: white;
+   border-style: solid;
+   width: max-content;
+   
+}
+.resultext{
+    color: white;
+    font-family: 'Outfit',sans-serif;
+    font-size: 25px;
+}
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

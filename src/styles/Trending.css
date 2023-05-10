@@ -1,0 +1,110 @@
+.Movies{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 100%;
+}
+.Trendingcon{
+    margin-left: 30px;
+}
+.Movies::-webkit-scrollbar{
+    overflow: hidden;
+}
+.trendpic{
+    width: 300px;
+    
+    transition: 1s;
+    z-index: -1;
+}
+.trendtit{
+    color: white;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.moviewithin{
+    padding:10px; 
+}
+.trendpic:hover{
+    transform: scale(1.2);
+
+}
+.name{
+    z-index: 1;
+    color: white;
+}
+.moviedetails{
+    width: 90%;
+    margin-top: 25%;
+    visibility:hidden;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    
+    transition: 1s;
+    padding-left: 20px;
+}
+.boxcon{
+    padding: 10px;
+    animation: initial-animation 1s ease-in-out;
+    text-decoration: none;
+}
+@keyframes initial-animation {
+    0% {
+      
+      transform: scale(0);
+    }
+    100% {
+      
+      transform: scale(1);
+    }
+  }
+.boxcon:hover .moviedetails{
+    visibility: visible;
+}
+.boxcon:hover .likes{
+    visibility: visible;
+    
+}
+.box:hover{
+    transform: scale(1.2);
+    background-blend-mode: darken;
+}
+.moviename{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+.rating{
+    color: #5AAE5E;
+    font-size: 12px;
+    
+    width: max-content;
+    
+    
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+   
+}
+.language{
+    color: white;
+    font-weight: lighter;
+    border-color: white;
+    border-width: 1px;
+}
+.overview{
+    color: white;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+.likes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    justify-content: space-evenly;
+    visibility: hidden;
+    transition: 0.8s;
+}
